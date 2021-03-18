@@ -1,0 +1,19 @@
+{
+  "name": "testcafe_assessment",
+  "version": "1.0.0",
+  "description": "testcafe assesment 1",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/test --reporter list"
+  },
+  "author": "Elia Ríos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe-reporter-json": "^2.2.0",
+    "testcafe-reporter-list": "^2.1.0",
+    "testcafe-reporter-minimal": "^2.1.0",
+    "testcafe-reporter-spec": "^2.1.1",
+    "testcafe-reporter-xunit": "^2.1.0"
+  }
+}
